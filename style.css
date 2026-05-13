@@ -11,8 +11,9 @@
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    margin-top: 0.8rem;
-    width: 100%;
+    width: 100vw;
+    padding: 0.8rem 0;
+    background-color: aliceblue;
 }
 #header ul {
     display: flex;
@@ -59,4 +60,8 @@
 
 section {
     margin: 2rem auto;
+}
+
+aside {
+    display: none;
 }
