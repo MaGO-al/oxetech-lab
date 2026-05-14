@@ -85,8 +85,42 @@
     background-color: #D1FFE6;
     border: 1px solid cadetblue;
     border-radius: 8px;
-    height: 560px;
     padding: 2rem 4rem;
+}
+
+#skills h2 {
+    font-size: 2.4rem;
+    padding: 2rem 1rem
+}
+#skills h3 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    margin-bottom: 2rem;
+}
+#skills li {
+    list-style: none;
+    width: 87px;
+    height: 25px;
+    align-self: center;
+    margin-left: 12px;
+    background-color: #2CEAF2;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid #DDD;
+    border-radius: 8px;
+}
+.exp {
+    background-color: #DEF797;
 }
 section {
     margin: 0 auto;
