@@ -56,10 +56,40 @@
 }
 #principal {
     padding: 6rem;
+    margin: 0 auto;
+    width: 70vw;
 }
 
+#about {
+    background-color: #D1FFFD;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    height: 260px;
+    text-align: center;
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+}
+#about h2 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 45px;
+    line-height: 1.5rem;
+}
+
+#skills {
+    background-color: #D1FFE6;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    height: 560px;
+    padding: 2rem 4rem;
+}
 section {
-    margin: 2rem auto;
+    margin: 0 auto;
 }
 
 aside {
