@@ -56,10 +56,209 @@
 }
 #principal {
     padding: 6rem;
+    margin: 0 auto;
+    width: 70vw;
 }
 
+#about {
+    background-color: #D1FFFD;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    height: 260px;
+    text-align: center;
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+}
+#about h2 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 45px;
+    line-height: 1.5rem;
+}
+
+#skills {
+    background-color: #D1FFE6;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+}
+
+#skills h2 {
+    font-size: 2.4rem;
+    padding: 2rem 1rem
+}
+#skills h3 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 140px;
+    margin-bottom: 2rem;
+}
+#skills li {
+    list-style: none;
+    width: 87px;
+    height: 25px;
+    align-self: center;
+    margin-left: 12px;
+    background-color: #2CEAF2;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px solid #DDD;
+    border-radius: 8px;
+}
+.exp {
+    background: linear-gradient(to right, rgb(66, 39, 90), rgb(115, 75, 109));
+    padding: 42px;
+    border: 1px solid #D1CFE6;
+    border-radius: 8px;
+}
+
+.nortan {
+    background-color: burlywood;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+}
+
+.nortan h4 {
+    color: #222;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.nortan p {
+    color: #333;
+    margin-bottom: 1rem;
+}
+.tag {
+    background-color: #006AA1;
+    text-align: center;
+    color: #E6F7FF;
+    padding: 4px 8px;
+    margin: 1rem 0.2rem 1rem 0rem;
+    border-radius: 6px;
+}
+
+.seduc {
+    background-color: #00D695;
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+
+.seduc h4 {
+    color: #222;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+.seduc p {
+    color: #333;
+    margin-bottom: 1rem;
+}
+#projetos {
+    background: linear-gradient(to right, #4a56cf, #4A569D);
+    padding: 42px;
+    border: 1px solid #D1CFE6;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+#projetos h2 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+#projetos p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #ffe340, #ffe372);
+    color: black;
+    border-radius: 8px;
+}
+
+.projeto h3 {
+    align-self: center;
+    font-size: 1.8rem;
+    margin: 0.9rem 0rem;
+}
+
+.projeto span {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.projeto a {
+    color: #321;
+    font-size: 1.2rem;
+}
+.projeto a:hover {
+    font-size: 1.35rem;
+    color: #000;
+    transition: 900ms ease-in-out;
+}
+#contato {
+    background-color: #FFBD99;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+}
+
+#contato h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#contato fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+#contato legend {
+    font-size: 1.5rem;
+}
+
+#contato label {
+    font-size: 1.25rem;
+    margin-bottom: 0.85rem;
+}
+
+#contato input {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.5rem;
+    margin-bottom: 1rem;
+}
 section {
+    margin: 0 auto;
+}
+
+footer {
     margin: 2rem auto;
+    text-align: center;
 }
 
 aside {
