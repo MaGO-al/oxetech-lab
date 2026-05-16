@@ -168,7 +168,56 @@
     color: #333;
     margin-bottom: 1rem;
 }
+#projetos {
+    background: linear-gradient(to right, #4a56cf, #4A569D);
+    padding: 42px;
+    border: 1px solid #D1CFE6;
+    border-radius: 8px;
+    color: whitesmoke;
+}
 
+#projetos h2 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+#projetos p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #ffe340, #ffe372);
+    color: black;
+    border-radius: 8px;
+}
+
+.projeto h3 {
+    align-self: center;
+    font-size: 1.8rem;
+    margin: 0.9rem 0rem;
+}
+
+.projeto span {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.projeto a {
+    color: #321;
+    font-size: 1.2rem;
+}
+.projeto a:hover {
+    font-size: 1.35rem;
+    color: #000;
+    transition: 900ms ease-in-out;
+}
 #contato {
     background-color: #FFBD99;
 }
