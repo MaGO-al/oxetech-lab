@@ -220,6 +220,37 @@
 }
 #contato {
     background-color: #FFBD99;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+}
+
+#contato h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#contato fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+#contato legend {
+    font-size: 1.5rem;
+}
+
+#contato label {
+    font-size: 1.25rem;
+    margin-bottom: 0.85rem;
+}
+
+#contato input {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.5rem;
+    margin-bottom: 1rem;
 }
 section {
     margin: 0 auto;
