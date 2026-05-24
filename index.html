@@ -146,17 +146,30 @@
         </section>
         <br>
         <hr><br>
-        <section id="contato">
-            <h2>Contato</h2>
+        <section id="contato" class="bg-orange-100 border border-orange-200 rounded-xl px-12 py-10 mt-8 max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-orange-900 mb-8">Contato</h2>
             <form action="#" method="post">
-                <fieldset>
-                    <legend>Vamos conversar!</legend>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" required placeholder="Seu nome..." />
-                    <label for="name">E-mail</label>
-                    <input type="text" id="email" required placeholder="Seu e-mail..." />
-                    <label for="name">Idade</label>
-                    <input type="text" id="number" required placeholder="Sua idade..." />
+                <fieldset class="border-none flex flex-col gap-5">
+                    <legend class="text-2xl font-semibold text-orange-800 mb-4">Vamos conversar!</legend>
+                    <div class="flex flex-col gap-1">
+                        <label class="text-sm font-semibold text-gray-700" for="name">Nome</label>
+                        <input type="text" id="name" required placeholder="Seu nome..." 
+                            class="w-full border border-gray-300 bg-white rounded-lg px-4 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-400 transition duration-200"    />
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <label class="text-sm font-semibold text-gray-700" for="email">E-mail</label>
+                        <input type="email" id="email" required placeholder="Seu e-mail..." 
+                            class="w-full border border-gray-300 bg-white rounded-lg px-4 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-400 transition duration-200"/>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <label class="text-sm font-semibold text-gray-700" for="number">Idade</label>
+                        <input type="number" id="number" required placeholder="Sua idade..." 
+                            class="w-full border border-gray-300 bg-white rounded-lg px-4 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-400 transition duration-200"/>
+                    </div>
+                    <button type="submit" 
+                        class="mt-2 bg-orange-500 text-white font-semibold text-sm px-6 py-3 rounded-lg hover:bg-orange-600 active:scale-95 transition-all duration-200 self-start">
+                        Enviar mensagem
+                    </button>
                 </fieldset>
             </form>
         </section>
