@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-bt">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu projeto</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <header id="header">
 
-        <div class="left-container">
-            <img src="https://preview.redd.it/king-baldwin-iv-v0-rj2ozpc2j4ib1.jpg?width=640&crop=smart&auto=webp&s=afb7dbc26dc3a1bb7220ecc435fa5404382b25dd" 
-                class="profile-pic" alt="Avatar deste lindo usuário"/>
-            <h1>Conheça o Matheus</h1>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#header">Inicio</a>
+<body>
+    <nav id="inicio" class="bg-white border-b border-gray-200 shadow-sm fixed top-0 left-0 w-full z-50">
+        <div class="max-w-screen-xl flex items-center justify-between mx-auto px-6 py-3">
+
+            <a href="#" class="flex items-center gap-3">
+                <img src="https://w0.peakpx.com/wallpaper/133/184/HD-wallpaper-anime-original-nazi.jpg" class="h-10 w-10 rounded-full object-cover" alt="Foto do Matheus" />
+                <span class="text-xl font-semibold text-gray-800">Conheça o Matheus</span>
+            </a>
+
+            <ul class="flex items-center gap-6">
+                <li><a href="#inicio"
+                        class="text-blue-600 font-semibold text-sm border-b-2 border-blue-600 pb-0.5">Início</a></li>
+                <li><a href="#about"
+                        class="text-gray-600 hover:text-blue-600 text-sm font-medium transition-colors duration-200">Sobre</a>
                 </li>
-                <li>
-                    <a href="#principal">Sobre</a>
+                <li><a href="#skills"
+                        class="text-gray-600 hover:text-blue-600 text-sm font-medium transition-colors duration-200">Skills</a>
                 </li>
-                <li>
-                    <a href="#rodape">Skills</a>
+                <li><a href="#projetos"
+                        class="text-gray-600 hover:text-blue-600 text-sm font-medium transition-colors duration-200">Projetos</a>
                 </li>
-                <li>
-                    <a href="#rodape">Projetos</a>
-                </li>
-                <li>
-                    <a href="#rodape">Contatos</a>
+                <li><a href="#contato"
+                        class="text-gray-600 hover:text-blue-600 text-sm font-medium transition-colors duration-200">Contato</a>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <main id="principal">
+
+        </div>
+    </nav>
+    <main id="principal" class="p-20">
         <section id="about">
             <h2>Sobre mim</h2>
-            <p>Me chamo Matheus, tenho 28 anos, sou formado pela Universidade Federal de Alagoas em Ciência da Computação (2023) com ênfase em Sistema da Informação. Gosto de trabalhar com Desenvolvimento web, mas sou <em>freak</em> em conhecer novas linguagens, tecnologias e coisas da bolha. Atualmente me encontro estudando RabbitMQ, Docker, Validações com JWT e refinando meus conhecimentos em desenvolvimento web com React e estou estudando Vue.js de forma entusiasta. </p>
+            <p>Me chamo Matheus, tenho 28 anos, sou formado pela Universidade Federal de Alagoas em Ciência da
+                Computação (2023) com ênfase em Sistema da Informação. Gosto de trabalhar com Desenvolvimento web, mas
+                sou <em>freak</em> em conhecer novas linguagens, tecnologias e coisas da bolha. Atualmente me encontro
+                estudando RabbitMQ, Docker, Validações com JWT e refinando meus conhecimentos em desenvolvimento web com
+                React e estou estudando Vue.js de forma entusiasta. </p>
         </section>
-        <br><hr><br>
+        <br>
+        <hr><br>
         <section id="skills">
             <h2>Habilidades e XP</h2>
-            <article class="habilidades">
+            <article>
                 <h3>Já trabalhei / tenho conhecimento com as seguintes stacks</h3>
                 <ul>
                     <li>Java</li>
@@ -62,50 +72,55 @@
                     <li>C#</li>
                 </ul>
             </article>
-            <article class="exp">
-                <div class="nortan">
+            <article>
+                <div>
                     <h4>Nortan Engenharia - Estágio (1 ano e 6 meses)</h4>
                     <p>Estágio de quase dois anos desenvolvendo com Angular + SCSS (Front) e Node + Mongo (Back)</p>
-                    <div class="tags">
-                        <span class="tag">Angular</span>
-                        <span class="tag">Typescript</span>
-                        <span class="tag">SASS</span>
-                        <span class="tag">MongoDB</span>
+                    <div>
+                        <span>Angular</span>
+                        <span>Typescript</span>
+                        <span>SASS</span>
+                        <span>MongoDB</span>
                     </div>
                 </div>
-                <div class="seduc">
+                <div>
                     <h4>Secretaria de Educação - Estágio (2 anos)</h4>
-                    <p>Estágio de dois anos com Suporte de TI, atendimentos, manutenção de hardware/software, serviços de rede e internet</p>
-                    <div class="tags">
-                        <span class="tag">Suporte</span>
-                        <span class="tag">Manutenção</span>
-                        <span class="tag">Redes</span>
-                        <span class="tag">Infraestrutura</span>
+                    <p>Estágio de dois anos com Suporte de TI, atendimentos, manutenção de hardware/software, serviços
+                        de rede e internet</p>
+                    <div>
+                        <span>Suporte</span>
+                        <span>Manutenção</span>
+                        <span>Redes</span>
+                        <span>Infraestrutura</span>
                     </div>
                 </div>
             </article>
         </section>
-        <br><hr><br>
+        <br>
+        <hr><br>
         <section id="projetos">
             <h2>Projetos</h2>
             <p>Alguns projetos que na facul e só de resenha.</p>
-            <div class="portifolio projeto">
+            <div>
                 <h3>Portifólio pessoal</h3>
                 <span>Um projeto que desenvolvi como desafio final para o FreeCodeCamp</span>
                 <a href="#">Acesse aqui 👈🏻</a>
             </div>
-            <div class="sistema projeto">
+            <div>
                 <h3>Sistema Farmacêutico</h3>
-                <span>Trata-se de um sistema completo de gerenciamento de estoque, com caixa integrado, para uma farmácia utilizando Java 11.</span>
+                <span>Trata-se de um sistema completo de gerenciamento de estoque, com caixa integrado, para uma
+                    farmácia utilizando Java 11.</span>
                 <a href="#">Acesse aqui 👈🏻</a>
             </div>
-            <div class="monitoramento projeto">
+            <div>
                 <h3>Monitoramento de Atividades</h3>
-                <span>Basicamente uma réplica completa, utilizando VITE, PostgreSQL, JWT e RESTFul, de um aplicativo de Monitoramento de Atividades para se usar como webApp no celular </span>
+                <span>Basicamente uma réplica completa, utilizando VITE, PostgreSQL, JWT e RESTFul, de um aplicativo de
+                    Monitoramento de Atividades para se usar como webApp no celular </span>
                 <a href="#">Acesse aqui 👈🏻</a>
             </div>
         </section>
-        <br><hr><br>
+        <br>
+        <hr><br>
         <section id="contato">
             <h2>Contato</h2>
             <form action="#" method="post">
@@ -122,9 +137,11 @@
         </section>
     </main>
     <footer id="rodape">
-        
+
 
         &copy; Nenhum direito reservado para eu mesmo :p
     </footer>
+    <script src="scripts.js"></script>
 </body>
+
 </html>
